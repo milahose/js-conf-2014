@@ -1,0 +1,518 @@
+@import url('whitespace-reset.css');
+
+body {
+	color: #444;
+	font: 300 16px "Open Sans", Arial, sans-serif;
+}
+
+/*
+==========================
+		 Header Styles 
+==========================
+*/
+
+header nav {
+	top: 0;
+	width: 100%;
+	position: fixed;
+	text-align: center;
+	background-color: #fff;
+	border-top: 10px solid #f5f5f5;
+	border-bottom: 1px solid #efefef;
+	z-index: 1;
+}
+
+header li {
+	display: inline-block;
+	margin: 0 25px;
+}
+
+header li a {
+	font-size: 13px;
+	line-height: 44px;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a {
+	color: #444;
+}
+
+header li a:hover {
+	text-decoration: underline;
+}
+
+.banner {
+	height: 430px;
+	margin-top: 54px;
+	background: transparent url('http://2014.jsconfbr.org/images/front.jpg') center no-repeat;
+}
+
+header h1, 
+header h2 {
+	color: #fff;
+	font-weight: normal;
+	text-align: center;
+}
+
+header img {
+	width: 80px;
+	height: 80px;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	top: 151px;
+	box-shadow: .2px .5px .2px #000;
+}
+
+header h1 {
+	font-size: 72px;
+	padding-top: 155px;
+}
+
+header h2 {
+	font-size: 31px;
+	text-transform: uppercase;
+}
+
+/*
+==========================
+		 Section Styles 
+==========================
+*/
+
+main > section {
+	margin: 0 30px;
+	padding-bottom: 60px;
+	border-bottom: 1px solid #efefef;
+}
+
+h3 {
+	font-size: 48px;
+	font-weight: 300;
+	text-align: center; 
+}
+
+/*
+==========================
+		 Tickets Styles 
+==========================
+*/
+
+#tickets h3 {
+	padding: 59px 0 30px 0;
+}
+
+#tickets p {
+	line-height: 25px;
+	text-align: center;
+}
+
+div.btn {
+	margin: 17px;
+}
+
+div.btn a {
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 30px;
+	background-color: #008000;
+}
+
+div.btn a:hover {
+	background-color: #006000;
+}
+
+/*
+==========================
+		 Speaker Styles 
+==========================
+*/
+
+.speakerlist {
+	max-width: 882px;
+	margin: 0 auto;
+}
+
+#speakers h3 {
+	padding: 60px 0 30px 0;
+}
+
+dl {
+	width: 280px;
+	height: 379px;
+	display: inline-block;
+	margin: 4.5px;
+	border: 1px solid #efefef;
+	vertical-align: top;
+}
+ 
+dl dt + dt {
+	color: #008000;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 29px;
+	padding-bottom: 4px;
+}
+
+dl dd {
+	line-height: 25px;
+	text-align: center;
+	padding: 0 10px;
+	overflow: hidden;
+}
+
+/*
+==========================
+		 Schedule Styles 
+==========================
+*/
+
+#schedule {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 25px;
+	border-bottom: 0;
+}
+
+#schedule h3 {
+	padding: 55px 0 34px 0;
+}
+
+table {
+	width: 100%;
+	font-size: 24px;
+	border-bottom: 1px solid #efefef;
+	margin-bottom: 62px;
+}
+
+td {
+	padding: 12px 10px;
+	border-top: 1px solid #efefef;
+}
+
+td:nth-of-type(1) {
+	width: 50px;
+} 
+
+td:nth-of-type(3) {
+	width: 10px;
+}
+
+td:nth-of-type(2) {
+	width: 780px;
+	overflow: visible;
+  max-width:20%;
+  white-space: wrap;
+}
+
+h4.session-tags {
+	display: inline-block;
+}
+
+td, td h4, td p, table img {
+	font-weight: 400;
+	vertical-align: middle;
+}
+
+table img {
+	width: 131px;
+	height: 108px;
+}
+
+table a {
+	text-decoration: none;
+	color: #008000;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+table a:hover {
+	text-decoration: underline;
+}
+
+span.session-tags {
+	font-size: 7px;
+	display: inline-block;
+	background-color: #eee;
+	border: 1px solid #AAA;
+	padding: 1px 4px;
+	vertical-align: middle;
+}
+
+/*
+==========================
+		 Location Styles 
+==========================
+*/
+
+#location {
+	border-top: 1px solid #efefef;
+}
+
+#location p {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 25px;
+}
+
+#location h3 {
+	padding: 65px 0 30px 0;
+}
+
+#location p:first-of-type {
+	font-weight: bold;
+}
+
+#location p:last-of-type {
+	padding: 30px 0 20px 0;
+}
+
+#location img {
+	width: 104.7%;
+	margin-left: -2.5%;
+	padding: 30px 0 25px 0;
+}
+
+/*
+==========================
+	Call for Papers Styles 
+==========================
+*/
+
+#papers p {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 25px;
+}
+
+#papers h3 {
+	padding: 55px 0 27px 0;
+}
+
+#papers p {
+	padding: 9px 0;
+	line-height: 24px;
+}
+
+div.no-margin {
+	margin: 0;
+}
+
+/*
+==========================
+			Sponsors Styles 
+==========================
+*/
+
+#sponsors {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#sponsors div {
+	padding-bottom: 25px;
+}
+
+#sponsors h3 {
+	padding: 60px 0 30px 0;
+}
+
+#sponsors h4 {
+	font-size: 18px;
+	font-weight: 600;
+	padding-bottom: 10px;
+}
+
+#sponsors li {
+	display: inline-block;
+}
+
+.gold ul {
+	max-width: 700px;
+}
+
+.gold img {
+	width: 300px;
+}
+
+.silver img {
+	width: 240px;
+}
+
+.support img {
+	width: 180px;
+}
+
+.gold img, 
+.silver img, 
+.support img {
+	margin-right: 30px;
+}
+
+/*
+==========================
+			Footer Styles 
+==========================
+*/
+
+footer {
+	color: #fff;
+	height: 340px;
+	background: transparent url('http://2014.jsconfbr.org/images/people.jpg') center 23% no-repeat;
+	background-size: cover;
+}
+
+footer h3 {
+	padding: 30px 0;
+}
+
+footer h4 {
+	font-size: 30px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+footer p {
+	padding-bottom: 20px;
+}
+
+footer a {
+	color: #008000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.meet-team a:hover {
+	text-decoration: underline;
+}
+
+.jsconf:hover {
+	text-decoration: none;
+}
+
+.blck-background {
+	height: 168px;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, .7);
+}
+
+/*
+==========================
+			Media Queries 
+==========================
+*/
+
+@media screen and (max-width: 942px) {
+	#speakers {
+		width: 588px;
+		margin: 0 auto;
+	}
+
+	table {
+		max-width: 862px;
+	}
+}
+
+
+@media screen and (max-width: 654px) {
+	header nav {
+		display: none;
+	}
+
+	.banner {
+		height: 300px;
+		margin-top: 0;
+	}
+
+	header h1 {
+		font-size: 40px;
+		padding-top: 95px;
+	}
+
+	header img {
+		top: 92px;
+	}
+
+	header h2 {
+		font-size: 20px;
+	}
+
+	#speakers {
+		margin: auto;
+	}
+
+	table {
+		position: relative;
+	}
+
+	table img {
+		width: 83px;
+		height: 67px;
+	}
+
+	table td:nth-child(1) {
+		position: absolute;
+		right: 0;
+	}
+
+	table td:nth-child(3) {
+		position: absolute;
+		left: 0;
+	}
+
+	table td:nth-child(2) {
+		height: 150px;
+		padding: 80px 0 5px 0;
+		box-sizing: border-box;
+	}
+
+	#sponsors {
+		max-width: 621px;
+		padding: 0 20px;
+	}
+
+	.platinum img {
+		margin-right: -20px;
+		margin-left: -10px;
+	}
+
+	.sliver {
+		width: 500px;
+	}
+
+	footer h3 {
+		font-size: 35px;
+		padding: 22px 0;
+	}
+
+	footer h4 {
+		font-size: 31px;
+	}
+
+	.blck-background {
+		padding: 10px 10px 32px;	
+	}
+}
+
+@media screen and (max-width: 588px) {
+	#speakers {
+		width: 285px;
+		margin: 0 auto;
+	}
+
+	#schedule {
+		margin: 0 auto;
+	}
+
+	.blck-background {
+		padding-bottom: 50px;
+	}
+}
+
