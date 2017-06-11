@@ -415,8 +415,9 @@ footer a {
 
 .blck-background h4,
 .blck-background p {
-	width: 960px;
+	max-width: 960px;
 	margin: 0 auto;
+	box-sizing: border-box;
 }
 
 /*
@@ -527,8 +528,18 @@ footer a {
 		margin: 0 auto;
 	}
 
+	footer div{
+		padding-bottom: 10px;
+	}
+
 	.blck-background {
-		padding-bottom: 50px;
+		padding-bottom: 35px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.blck-background {
+		padding-bottom: 55px;
 	}
 }
 
